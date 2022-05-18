@@ -1995,27 +1995,7 @@
 				}
 			});
 
-			/*
-			$.ajax({
-				url: "https://www.badabusiness.com/framework/getAllCountry",
-				context: document.body,
-				success: function(data) {
-					var obj = jQuery.parseJSON(data);
-					//console.log(data);
-					$.each(obj, function(key, value) {
-						//console.log('ddd',key);
-						if (value.ad_code != '') {
-							var ve = value.ad_phone_code + ' (' + value.ad_code + ')';
-							$('.countryCode')
-								.append($("<option></option>")
-									.attr("value", value.id)
-									.text(ve));
-						}
-
-					});
-				}
-			});
-			*/
+			
 
 			$("#callmetrigger").click(function (e) {
 
