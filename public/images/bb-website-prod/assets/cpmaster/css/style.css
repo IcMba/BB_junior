@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&amp;display=swap');
+/* #Primary
+================================================== */
+body{ font-family: 'Poppins', sans-serif !important; font-size: 16px;line-height: 24px;font-weight: 400;color: #212112; background-position: center;background-repeat: repeat;background-size: 7%;background-color: #fff;overflow-x: hidden;transition: all 200ms linear; margin: 0; padding: 0;}
+::selection {color: #fff;background-color: #2b2d42; }
+::-moz-selection {color: #fff;background-color: #2b2d42;}
+.no-gutter{ margin: 0; padding: 0;}
+*{padding:0; margin:0; box-sizing: border-box;}
+:after,:before{box-sizing:border-box; }
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+
+.bg_banner{ width: 100%; height: 100vh; background: url(../images/banner_bg_desk.jpg) center center no-repeat;  background-size:100% 100%; overflow: hidden; position: relative;}
+.vbsimg{ position:absolute; bottom: 0px; top: 0px; width: 100%;}
+.bnrtxt{ position:absolute; bottom: 0px; top: 0px; width: 100%;}
+.callsales{width: auto; float: right; margin-right: 2%;}
+.callsales a{ color: #fff; font-size: 14px; font-weight: 500; display: block; width: 100%; margin: 0; padding: 0;}
+.callsales a:hover{color: #fff; text-decoration: none;} 
+.bodybg{ background: #fff; position: relative; top: -30px; 
+    -webkit-box-shadow: 0px 0px 16px 7px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 16px 7px rgba(0,0,0,0.11);
+    box-shadow: 0px 0px 16px 7px rgba(0,0,0,0.11);
+}
+.bodycont h1{ font-size: 48px; color: #000; font-weight: 900; line-height: 50px; text-transform: uppercase;} 
+.bodycont h1 span{ font-size: 48px; color: #f68002; font-weight: 900; line-height: 50px;} 
+.bodycont h3{ font-size: 30px; color: #000; font-weight: 300; } 
+.bodycont p{ font-size: 24px; color: #000; font-weight: 300; } 
+.dotrghtgrid{width: 150px; height: 354px; left: 0; top: 100px; background: url(../images/dot_grid.png) center center no-repeat;  background-size:150px 354px; overflow: hidden; position: absolute;}
+.dotleftgrid{width: 150px; height: 354px; right: 0; top: 100px; background: url(../images/dot_grid.png) center center no-repeat;  background-size:150px 354px; overflow: hidden; position: absolute;}
+
+/* .record_bg{ width: 100%; height: 900px; background: url(../images/recbg.jpg) center center no-repeat;  background-size:100% 100%; overflow: hidden; position: relative;}
+.record_bg h1{font-size: 42px; color: #fff; font-weight: 900; }
+.record_bg h1 span{font-size: 42px; color: #ffb665; font-weight: 900; } */
+.recbg{ display: block;}
+.recbg-mob{ display: none;}
+.testidotlft{width: 150px; height: 354px; left: 0; top: 0px; background: url(../images/dot_grid.png) center center no-repeat;  background-size:150px 354px; overflow: hidden; position: absolute;}
+.testidotrght{width: 150px; height: 354px; right: 0; top: 0px; background: url(../images/dot_grid.png) center center no-repeat;  background-size:150px 354px; overflow: hidden; position: absolute;}
+.whitelblehead{ background: #000; padding: 20px 0; display: block; width: 100%;}
+.whitelblehead h1 { color: #f4ae60; font-size: 36px; font-weight: 900; }
+.whitelblehead h3 { color: #fff; font-size: 30px; font-weight: 300; }
+.desig_arrow { margin: 0; padding: 0;}
+.desig_arrow li{ background: #fff3e6; font-size: 16px; font-weight: 500; padding: 10px 20px; margin-bottom: 20px; list-style: none;}
+.extr_width{ width: 450px;}
+.desig_arrow_rght { margin: 0; padding: 0;}
+.desig_arrow_rght li{ background: #fff3e6; font-size: 16px; font-weight: 500; padding: 10px 20px; margin-bottom: 20px; list-style: none; float: right; text-align: right;}
+ul.creatvie { margin: 0; padding: 0;  }
+ul.creatvie li { font-size: 24px; font-weight: 500; color: #000; margin-bottom: 25px;  background: url('../images/tick.png') no-repeat left top;  list-style: none; padding-left: 65px; background-size: auto 41px; min-height: 41px;}
+
+ul.psc { margin: 0; padding: 0;  }
+ul.psc li { font-size: 24px; font-weight: 500; color: #000; margin-bottom: 25px;  background: url('../images/tick.png') no-repeat left top;  list-style: none; padding-left: 65px; background-size: auto 41px; min-height: 41px; width: 50%; float: left;}
+#more {display: none;}
+.morebtn{ background: #000 !important; color: #f4ae60; font-size: 24px; font-weight: 700; text-transform: uppercase; width: 300px; height: auto; padding: 10px 30px; margin: 0 auto; text-align: center; outline: none; border: none; }
+.billioner_speak{width: 100%; height: 370px; background: url(../images/speaker_bg.jpg) center center no-repeat;  background-size:100% 100%; overflow: hidden; position: relative; background-color:#000 ;}
+.billioner_speak h1{color: #f4ae60; font-size: 36px; font-weight: 900; text-align: center; margin: 20px 0; }
+.card_p{ border: 1px #f4ae60 solid; border-radius: 10px; margin: 0 auto; text-align: center; width: 85%; }
+.card_p img{ max-width: 100px; margin: 20px auto; text-align: center;}
+.card_p p{ color: #fff; font-size: 13px; text-transform: uppercase; margin:10px 10px 0; display: block; }
+.card_p span{ color: #f4ae60; font-size: 13px; text-transform: uppercase; padding: 10px 0 10px; display: block;}
+
+
+
+footer{ margin-top: 10px ; background: #000; text-align: center; margin: 0 auto; display: block; color: #fff;}
+footer a{ display: inline; color: #fff; font-size: 14px;}
+footer a:hover{ text-decoration: none; color: #f4ae60; font-size: 14px;}
+.design-arrow-mob{ display: none; margin: 0 auto;}
+
+.stre_m ul{font-size: 18px; margin: 15px 0; width: 100%; padding: 0px;}
+.stre_m ul li{font-size: 34px; color: #fff; font-weight: 500; border-radius: 50px; list-style: none;  background: url(../images/CPfrancise_list.png) top center no-repeat ; background-size: 100% 100%; margin: 15px 0; height: 110px; padding: 32px 15px 10px 15px; line-height: 35px;}
+.stre_m ul li.double{font-size: 34px; color: #fff; font-weight: 500; border-radius: 50px; list-style: none;  background: url(../images/CPfrancise_list.png) top center no-repeat ; background-size: 100% 100%; margin: 15px 0; height: 110px; padding: 15px 15px 10px 15px; line-height: 35px;}
+.foot{ border-left: 4px #f68002 solid; padding-left: 20px;}
+.foot h2{ font-size: 36px; font-weight: 900;}
+.foot p{ font-size: 19px; font-weight: 300; margin: 0px;}
+.stories p{ font-size: 20px; margin: 20px 0 0; display: block; text-align: center; color: #f68002; font-weight: 500;}
+.stories span{ font-size: 16px; margin: 10px 0; display: block; text-align: center; color: #000; font-weight: 300;}
+.dontp h3{ display: inline; border: 2px #000 solid; padding: 10px 20px; border-radius: 10px;}
+.dontp h2{ text-align: center; padding: 10px; color: #f68002; font-size: 36px; font-weight: 700; float: left; width: 100%; text-transform: uppercase;}
+.dontp p{ text-align: center; padding: 0; color: #000;font-size: 20px; font-weight: 300;}
+.side_reg { position: fixed; right: 0; top: 270px; bottom: 0; z-index: 99;}
+.side_reg img{ max-width: 100%;}
+.paybtn{ position: fixed; right: 0; top: 100px; bottom: 0; z-index: 99;}
+.side_reg img{ max-width: 100%;}

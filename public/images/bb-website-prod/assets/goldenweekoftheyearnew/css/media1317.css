@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1200px) {
+    .bg_banner{ min-height: 360px;} 
+    .formmain h1{ font-size: 30px;} 
+    .bg_banner{ width: 100%;    background-size: 100% auto;}
+    #starshine { height: auto;} 
+    .formmain{  width: 300px; height: auto;}
+    .formmain h1 { color: #5d5845; font-weight: 700; margin-bottom: 20px;}
+    .formmain .input-group { margin-bottom: 5px;} 
+    .deskview { display: block;}
+    .form_hindi img{ max-width: 240px;}
+    .bg_bolly { height: 70vh;}
+    .digtal_course { height: 270px; padding: 40px 40px;}
+
+}
+
+@media only screen and (max-width: 992px) {
+    .right-icon { width: 55%;}
+    .call a { font-size: 13px;}
+    .right-icon .soc_media a img { max-width: 24px;} 
+    .logo_tab { max-width: 25% !important;} 
+    .formmain h1 { font-size:30px; margin-bottom: 20px;}
+    .formmain h1::after { left: 0; height: 2px;}
+    .formmain { padding: 5px 12px; height: auto;}
+    .formmain .form-group { margin-bottom: 5px;}
+    .input-group { margin-bottom: 5px !important;}
+    .formmain button { width: 120px; height: 40px; font-size: 14px;}  
+    .formmain { padding: 10px 25px;  height: 310px; width: 240px;} 
+    .form_hindi img{ max-width: 200px;}
+    .offer_bnr h1 { font-size: 24px;}
+    .ind_cha h1 {  font-size:35px; }
+    .bg_bolly {   height: 90vh; background-size: 100% 100%;}
+    .ind_cha{ top: -65px;}    
+    .memb_img{ margin-top: 40px;}
+    .digtal_course { height: 300px;}
+    .digtal_course img{ display: inline-block; max-width:120px ;} 
+    .digtal_course p {display: inherit;} 
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .formmain { margin-top: 10px;}
+     .bg_bolly { width: 100%; height: auto;  background-size: 100% 75%;  background: url(../images/bg_tabb.png) center top no-repeat; margin-bottom: 50px; background-size: 100% auto; }
+    .right-icon { width: 300px;}
+    .call { float: right;}
+    .right-icon .soc_media { margin: 20px 0 0;}
+    .video_sec { margin: 220px 0 0 0;} 
+    .deskview { display: none !important;}
+    .mobview{ display: block !important;}
+    .viewdesign { display: inline-block; text-align: center; margin: 0 auto;}
+    .formmain{  height: auto; position: relative ;width: 90%; margin: 0 5%; height: auto; padding: 40px 40px; top: -50px;}
+    .ind_cha h1{ font-weight: 700; font-size: 30px; text-align: center; padding: 20px 0; } 
+    .offer_bnr{ display: block;}     
+    .offer_desk{ display: none;}
+    .offer_bnr h1 { font-size: 28px;}
+    .desk_img { max-width: 100% !important;}
+    .swiper-pagination{ display: none;}
+    #click_arrow{ display: none;}
+    .memb_img{ margin-top: 10px;}
+    .whatyouget h1 { font-size: 24px; color: #0a1d27;  }
+    .whatyouget span {font-size: 24px; color: #fbbd43; }
+    .membership_d { padding: 20px 0;}
+    .digtal_course { height: auto;}
+    .whatyouget .speak_text { width: 100%;}
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .formmain h1::after {left: 40%; }  
+    .formmain h1 { font-size: 24px; text-align: center;}  
+    .right-icon{ width: 230px;}  
+    .right-icon .soc_media { margin: 10px 0 0 0;}
+    .ind_cha h1{ font-weight: 700; font-size: 24px; text-align: center; padding: 20px 0; } 
+    .offer_bnr h1 { font-size: 24px;}
+    .desk_img { max-width: 100% !important;}
+
+
+}
+
+
+@media only screen and (max-width: 380px) {
+    
+
+}
+
